@@ -1,0 +1,15 @@
+#Programming Challenge: Grocery Store Purchase
+
+pasta = 16.68
+sauce = 6.98
+garlic = 16.78
+seasoning = 15.26
+bread = 3.00
+meatballs = 4.39
+
+
+# round() was used to round the subtotal to 1 decimal places
+
+subtotal = round((pasta + sauce + garlic + seasoning + bread + meatballs), 1)
+print(subtotal)
+
